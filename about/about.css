@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f0f0f;
+}
+.navbar {
+  background-color: #0f0f0f !important;
+  margin-top: 20px;
+}
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  font-style: normal;
+}
+.navbar .collapse .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+.navbar .collapse .navbar-nav .nav-item {
+  margin-left: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #474747;
+  font-weight: 500;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffff;
+}
+.navbar .btn a {
+  text-decoration: none;
+  background-color: #2a2a2a !important;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 30px;
+}
+.navbar .btn a:hover {
+  background-color: #ffffff !important;
+  color: #333;
+}
+.active {
+  color: #ffffff !important;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.wrapper .logo h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper .links {
+  margin-top: 30px;
+}
+.wrapper .links span {
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* ================= About Style ============= */
+.wrapper {
+  padding-top: 80px;
+  color: #fff;
+}
+.wrapper .summary .title-summary h1 {
+  font-size: 74px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+  font-family: "Inter", sans-serif;
+}
+.wrapper .summary .summary-desc {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  height: 100%;
+  padding: 50px;
+  text-align: start;
+  font-family: "Inter", sans-serif;
+}
+.wrapper .summary .summary-desc .inner-desc {
+  width: 70%;
+  margin: 40px 0;
+}
+.exprience-section {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  height: 100%;
+  padding: 30px;
+  text-align: start;
+}
+.exprience-section .inner-exprience .title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 23px;
+  font-family: "Inter", sans-serif;
+}
+.exprience-section .inner-exprience .experience-desc h4 {
+  color: #bcbcbc;
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-family: "Inter", sans-serif;
+}
+.exprience-section .inner-exprience .experience-desc p {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.9;
+  margin-bottom: 7px;
+  font-family: "Inter", sans-serif;
+}
+.exprience-section .inner-exprience .experience-desc small {
+  color: #bcbcbc;
+  font-size: 14px;
+  opacity: 0.6;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.education-section {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  height: 100%;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+  text-align: start;
+}
+.education-section .inner-education .title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 23px;
+  font-family: "Inter", sans-serif;
+}
+.education-section .eduction-desc h4 {
+  color: #bcbcbc;
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-family: "Inter", sans-serif;
+}
+.education-section .eduction-desc p {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.9;
+  margin-bottom: 7px;
+  font-family: "Inter", sans-serif;
+}
+.education-section .eduction-desc small {
+  color: #bcbcbc;
+  font-size: 14px;
+  opacity: 0.6;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.credentail {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+.credentail .inner-credentail {
+  padding: 20px 10px;
+}
+.credentail .inner-credentail img {
+  max-width: 100%;
+}
+.credentail .inner-credentail h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #888888;
+  font-family: "Inter", sans-serif;
+}
+.credentail .title-credentail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.credentail .title-credentail h2 {
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+}
+.credentail .title-credentail button {
+  background: transparent;
+  border: none;
+}
+.profile-section {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  height: 100%;
+}
+.profile-section .inner-profile {
+  padding: 20px;
+}
+.profile-section .inner-profile .profile-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-section .inner-profile .profile-icon span i {
+  border-radius: 50%;
+  padding: 30px;
+  font-size: 35px;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.081),
+    rgba(255, 255, 255, 0)
+  );
+  transition: 0.3s ease-in-out;
+  margin: 0 9px;
+}
+.profile-section .inner-profile .profile-icon span i:hover {
+  background-color: #fff;
+  color: #333;
+}
+.profile-section .inner-profile p {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #888888;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.profile-section button {
+  background: transparent;
+  border: none;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+}
+.work-together {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  width: 100%;
+  height: 100%;
+}
+.work-together .inner-work .working {
+  margin-left: 35px;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+.work-together .inner-work .work-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  font-family: "Inter", sans-serif;
+}
+.work-together .inner-work .work-title h2 {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.work-together .inner-work .work-title h2 span {
+  color: #5b78f6;
+  font-family: "Inter", sans-serif;
+}
+.work-together .inner-work .work-title button {
+  background: transparent;
+  border: none;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .title-summary h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .title-summary h1 {
+    font-size: 30px;
+  }
+}

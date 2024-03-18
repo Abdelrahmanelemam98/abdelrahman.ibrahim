@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f0f0f;
+}
+.navbar {
+  background-color: #0f0f0f !important;
+  margin-top: 20px;
+}
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  font-style: normal;
+}
+.navbar .collapse .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+.navbar .collapse .navbar-nav .nav-item {
+  margin-left: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #474747;
+  font-weight: 500;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffff;
+}
+.btn a {
+  text-decoration: none;
+  background-color: #2a2a2a !important;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 30px;
+}
+
+.btn a:hover {
+  background-color: #ffffff !important;
+  color: #333;
+}
+
+.active {
+  color: #ffffff !important;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.wrapper .logo h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper .links {
+  margin-top: 30px;
+}
+.wrapper .links span {
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* ================= Home Style ================== */
+
+.main-wrapper {
+  padding-top: 80px;
+}
+.about {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  height: 100%;
+}
+.about .inner-about {
+  position: relative;
+  padding: 50px 46px;
+}
+.about .inner-about .title {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+}
+.about .inner-about .title-name {
+  font-size: 30px;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+.about .inner-about .desc {
+  font-size: 18px;
+  font-weight: 600;
+  color: #888888;
+}
+.banner {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+.banner .inner-banner {
+  max-width: 100%;
+  animation: textLoop 10s linear infinite;
+  white-space: nowrap;
+  padding-left: 5%;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+}
+.banner .inner-banner span {
+  color: #ffffff;
+  font-weight: bold;
+}
+.banner .inner-banner .linear {
+  animation-delay: 5s;
+}
+@keyframes textLoop {
+  0% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.credentail {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+.credentail .inner-credentail {
+  padding: 20px 10px;
+}
+.credentail .inner-credentail img {
+  max-width: 100%;
+}
+.credentail .inner-credentail h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0 10px;
+  color: #888888;
+}
+.credentail .title-credentail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.credentail .title-credentail h2 {
+  font-size: 23px;
+}
+.credentail .title-credentail button {
+  background: transparent;
+  border: none;
+}
+.project-section {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+.project-section .inner-project {
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.project-section .inner-project img {
+  max-width: 100%;
+}
+.project-section .inner-project h5 {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0 10px;
+  color: #888888;
+}
+.project-section .title-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.project-section .title-project h2 {
+  font-size: 23px;
+}
+.project-section .title-project button {
+  background: transparent;
+  border: none;
+}
+.services-offer {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  height: 100%;
+}
+.services-offer .inner-services {
+  padding: 20px;
+}
+.services-offer .inner-services p {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #888888;
+  margin: 0;
+}
+.services-offer .inner-services .icon-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+}
+.services-offer .inner-services .icon-section span i {
+  font-size: 44px;
+  text-align: center;
+}
+.services-offer .title-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.services-offer .title-services button {
+  background: transparent;
+  border: none;
+}
+.profile-section {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+.profile-section .inner-profile {
+  padding: 20px;
+}
+.profile-section .inner-profile .profile-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-section .inner-profile .profile-icon span i {
+  border-radius: 50%;
+  padding: 30px;
+  font-size: 35px;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.081),
+    rgba(255, 255, 255, 0)
+  );
+  transition: 0.3s ease-in-out;
+}
+.profile-section .inner-profile .profile-icon span i:hover {
+  background-color: #fff;
+  color: #333;
+}
+.profile-section .inner-profile p {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #888888;
+  margin: 0;
+}
+.profile-section button {
+  background: transparent;
+  border: none;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+}
+.project-count {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  width: 100%;
+  height: 100%;
+}
+.project-count .inner-project-count {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-count .inner-project-count .experience,
+.project-count .inner-project-count .client-section,
+.project-count .inner-project-count .total-project {
+  border-radius: 20px;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.052),
+    rgba(255, 255, 255, 0)
+  );
+  width: 25%;
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.project-count .inner-project-count .experience h2,
+.project-count .inner-project-count .client-section h2,
+.project-count .inner-project-count .total-project h2 {
+  font-weight: bold;
+}
+.project-count .inner-project-count .experience p,
+.project-count .inner-project-count .client-section p,
+.project-count .inner-project-count .total-project p {
+  padding-top: 10px;
+  color: #888888;
+  font-size: 13px;
+}
+.work-together {
+  background: linear-gradient(to bottom right, #333, #0f0f0f);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  width: 100%;
+  height: 100%;
+}
+.work-together .inner-work .working {
+  margin-left: 35px;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+.work-together .inner-work .work-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.work-together .inner-work .work-title h2 {
+  font-size: 40px;
+}
+.work-together .inner-work .work-title h2 span {
+  color: #5b78f6;
+}
+.work-together .inner-work .work-title button {
+  background: transparent;
+  border: none;
+  margin-top: 25px;
+}
